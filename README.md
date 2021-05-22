@@ -19,9 +19,11 @@ Readme, docs and support at [Silvest89/yeelight_v2](https://github.com/Silvest89
 
 4. Click Install
 
+[![hacs][hacsbadge]][hacs]
+[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 
-Update:
+Repo update:
 ```
 git subtree pull --prefix=custom_components/yeelight_v2/python_yeelight https://github.com/Silvest89/python-yeelight master --squash
 
@@ -30,8 +32,6 @@ git subtree pull --prefix=custom_components/yeelight_v2/python_miio https://gith
 git subtree pull --prefix=custom_components/yeelight_v2 https://github.com/Silvest89/yeelight_v2 main --squash
 ```
 
-[![hacs][hacsbadge]][hacs]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 [hacs]: https://github.com/hacs/integration
 [hacsbadge]: https://img.shields.io/badge/hacs-true-success.svg?style=for-the-badge
