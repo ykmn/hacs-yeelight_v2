@@ -1,0 +1,11 @@
+{
+  "domain": "yeelight_v2",
+  "name": "YeelightV2",
+  "documentation": "https://www.home-assistant.io/integrations/yeelight",
+  "codeowners": [
+    "@rytilahti",
+    "@zewelor",
+    "@shenxn"
+  ],
+  "config_flow": true
+}
