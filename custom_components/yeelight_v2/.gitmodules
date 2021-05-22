@@ -1,0 +1,6 @@
+[submodule "python_yeelight"]
+	path = python_yeelight
+	url = https://github.com/Silvest89/python-yeelight
+[submodule "python_miio"]
+	path = python_miio
+	url = https://github.com/Silvest89/python-miio
