@@ -1,0 +1,3 @@
+[submodule "custom_components/yeelight_v2"]
+	path = custom_components/yeelight_v2
+	url = https://github.com/Silvest89/yeelight_v2.git
