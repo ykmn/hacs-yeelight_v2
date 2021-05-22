@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "yeelight"
+author = "Stavros Korokithakis"
+author-email = "hi@stavros.io"
+home-page = "https://gitlab.com/stavros/python-yeelight"
+description-file = "README.rst"
+requires-python = ">=3.4"
+requires-extra = {"dev" = [
+    "flake8",
+    "flake8-docstrings",
+    "flake8-import-order",
+    "flake8-tidy-imports",
+    "pep8-naming",
+    "Sphinx",
+    "sphinx-rtd-theme"
+]}
+requires = ["future", "ifaddr"]
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
