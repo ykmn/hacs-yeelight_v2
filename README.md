@@ -19,6 +19,17 @@ Readme, docs and support at [Silvest89/yeelight_v2](https://github.com/Silvest89
 
 4. Click Install
 
+
+
+Update:
+```
+git subtree pull --prefix=custom_components/yeelight_v2/python_yeelight https://github.com/Silvest89/python-yeelight master --squash
+
+git subtree pull --prefix=custom_components/yeelight_v2/python_miio https://github.com/Silvest89/python-miio master --squash
+
+git subtree pull --prefix=custom_components/yeelight_v2 https://github.com/Silvest89/yeelight_v2 main --squash
+```
+
 [![hacs][hacsbadge]][hacs]
 [![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
