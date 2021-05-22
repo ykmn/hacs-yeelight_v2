@@ -1,0 +1,17 @@
+flake8
+flake8-docstrings
+pep8-naming
+
+Sphinx
+sphinx-rtd-theme
+
+pytest
+coverage
+future
+pytest-cov
+
+gitchangelog
+pre-commit
+pystache
+
+mock==3.0.5;python_version<'3.3'
