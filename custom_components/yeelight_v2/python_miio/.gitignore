@@ -1,0 +1,12 @@
+*.egg-info/
+
+__pycache__
+.idea/
+.cache/
+.mypy_cache/
+.tox/
+.venv/
+
+.coverage
+
+docs/_build/
